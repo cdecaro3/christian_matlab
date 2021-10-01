@@ -30,9 +30,13 @@ for i=1:num_DICOM_folders
                 
                 description = erase(header.SeriesDescription,'/');
                 description = erase(description,'\');
+                
+                studydescription = erase(header.StudyDescription,'/');
+                studydescription = erase(studydescription,'\');
+                
                 series = [header.SeriesNumber];
                 series = num2str(series);
-                destination = [patient_name.FamilyName '\' series '_' description '\'];
+                destination = [patient_name.FamilyName '\' studydescription '\' series '_' description '\'];
                 
                 mkdir(destination);
                 copyfile([SE_folder_name 'IM*'],destination);
