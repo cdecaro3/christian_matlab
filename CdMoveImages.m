@@ -46,5 +46,5 @@ for i=1:num_DICOM_folders
         end
         
     end
-     rmdir(DICOM_folder_name, 's');
+%     rmdir(DICOM_folder_name, 's');
 end
