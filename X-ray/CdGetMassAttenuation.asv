@@ -1,0 +1,17 @@
+function mu_rho = CdGetMassAttenuation(material, energy)
+% get mass attenuation coefficient (mu / rho) for a material at an energy
+% total attenuation with coherent scattering
+%
+% mu_rho: mass attenuation coefficient (mu / rho) (cm^2/g)
+% material: (CdTe, CsI, Cu, etc.)
+% energy: photon energy (keV)
+
+energy = energy / 1000; %convert to MeV
+
+file = importdata(sprintf("NIST_XCOM_data/%s.txt", material));
+
+[~,ia,ic] = unique(file.data(:,1),'stable','first');
+duplicate_
+mu_rho = interp1(energies, file.data(:,7), energy);
+
+end
