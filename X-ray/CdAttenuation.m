@@ -7,7 +7,7 @@ function ratio = CdAttenuation(material, path_length, energy)
 % energy: photon energy (keV)
 
 
-ratio = exp(- CdGetLinearAttenuation(material,energy) * path_length);
+ratio = 1 - exp(- CdGetLinearAttenuation(material,energy) * path_length);
 
 
 end
