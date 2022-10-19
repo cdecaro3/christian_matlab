@@ -15,7 +15,7 @@ duplicate_idx = setdiff(1:numel(file.data(:,1)), ia); % get indices of first dup
 file.data(duplicate_idx,1) = file.data(duplicate_idx,1) - 0.0000000001; % slightly offset first duplicates
 mu_rho = interp1(file.data(:,1), file.data(:,7), energy);
 
-% --- to create energy grid to input into xcom along with standard grid ---
+% --- to create energy grid to input into xcom along with standard grid (for adding new material data)---
 % fprintf('\n')
 % for idx = 0.001:0.002:0.200
 %     fprintf('%d\n',idx)
