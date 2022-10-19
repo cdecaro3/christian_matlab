@@ -1,3 +1,7 @@
+@ECHO OFF
+
+SET /P message=Github message: 
+
 git add .
-git commit -m %1
+git commit -m "%message%"
 git push
