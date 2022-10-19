@@ -1,7 +1,7 @@
 function mu = CdGetLinearAttenuation(material, energy)
 % get linear attenuation coefficient for a given material and energy
 %
-% mu: linear attenuation coefficient [1/cm]
+% mu: linear attenuation coefficient (1/cm)
 % material: ['CdTe', 'CsI', 'Cu', etc.]
 % energy: photon energy (keV)
 

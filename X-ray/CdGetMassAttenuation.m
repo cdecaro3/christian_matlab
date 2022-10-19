@@ -3,7 +3,7 @@ function mu_rho = CdGetMassAttenuation(material, energy)
 % total attenuation with coherent scattering
 %
 % mu_rho: mass attenuation coefficient (mu / rho) (cm^2/g)
-% material: (CdTe, CsI, Cu, etc.)
+% material: ['CdTe', 'CsI', 'Cu', etc.]
 % energy: photon energy (keV)
 
 energy = energy / 1000; %convert to MeV
