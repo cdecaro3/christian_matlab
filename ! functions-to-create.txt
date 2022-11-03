@@ -13,3 +13,5 @@ CdSendText
     send a text message
     take in message and target phone number
     needs to use the new matlab email I created
+
+CdSetFigureTheme
