@@ -1,0 +1,9 @@
+CdReadHits and CdReadSingles
+    for gate
+    take in file name and scanner type (changes how many output columns and where)
+    default to gen scanner
+
+CdSendText
+    send a text message
+    take in message and target phone number
+    needs to use the new matlab email I created
