@@ -3,7 +3,7 @@ CdReadHits and CdReadSingles
     take in file name and scanner type (changes how many output columns and where)
     default to gen scanner
 
-CdReadEnergySpectrum
+CdReadEnergySpectrumActor
     for gate
     take in file name
     return table of energy and number of counts at that energy
