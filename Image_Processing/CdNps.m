@@ -1,5 +1,8 @@
 function [nps, k] = CdNps(image, dx)
+% [nps, k] = CdNps(image, dx)
+% 
 % Measure Noise Power Spectrum (NPS) from a given image 3d array
+% 
 % nps: 2d nps
 % k: 1d array of frequency values for nps pixels
 % image: input image (n x n x num_frames) (linearized

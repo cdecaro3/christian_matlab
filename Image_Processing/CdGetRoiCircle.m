@@ -1,4 +1,6 @@
 function roi = CdGetRoiCircle(img, radius, center)
+% roi = CdGetRoiCircle(img, radius, center)
+% 
 % return the values from a circular ROI in a 1d array given the circle's 
 % center location and radius
 %

@@ -1,4 +1,6 @@
 function corrected_img = CdFpdDarkCorrection(image, dark_image)
+% corrected_img = CdFpdDarkCorrection(image, dark_image)
+%
 % apply dark field correction to FPD image
 %
 % corrected_img: image after dark field correction

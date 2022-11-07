@@ -1,4 +1,6 @@
 function mu = CdGetLinearAttenuation(material, energy)
+% mu = CdGetLinearAttenuation(material, energy)
+% 
 % get linear attenuation coefficient for a given material and energy
 %
 % mu: linear attenuation coefficient (1/cm)

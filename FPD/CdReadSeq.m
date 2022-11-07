@@ -1,4 +1,6 @@
 function image = CdReadSeq(filename, frames)
+% image = CdReadSeq(filename, frames)
+%
 % read in the .seq file produced by the video functionality of the FPD
 %
 % image: output image of .seq file

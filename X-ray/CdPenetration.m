@@ -1,4 +1,6 @@
 function ratio = CdPenetration(material_filters, energy)
+% ratio = CdPenetration(material_filters, energy)
+%
 % get the percentage of photons that penetrate through an object
 %
 % ratio: percent of photons penetrated (N/N0)

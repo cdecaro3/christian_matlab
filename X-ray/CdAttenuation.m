@@ -1,4 +1,6 @@
 function ratio = CdAttenuation(material_filters, energy)
+% ratio = CdAttenuation(material_filters, energy)
+% 
 % get the percentage of photons that are attenuated in an object
 % 
 % ratio: percent of photons attenuated (1 - (N/N0))

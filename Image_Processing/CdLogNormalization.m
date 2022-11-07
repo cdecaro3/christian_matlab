@@ -1,4 +1,6 @@
 function image = CdLogNormalization(object, air)
+% image = CdLogNormalization(object, air)
+%
 % Apply log normalization to image. Replace negatives pixels with 0.2.
 %
 % image: output image of object after log normalization

@@ -1,4 +1,6 @@
 function mu_rho = CdGetMassAttenuation(material, energy)
+% mu_rho = CdGetMassAttenuation(material, energy)
+%
 % get mass attenuation coefficient (mu / rho) for a material at an energy
 % total attenuation with coherent scattering
 %
