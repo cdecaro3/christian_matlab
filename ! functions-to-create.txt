@@ -8,7 +8,7 @@ CdReadEnergySpectrumActor
     take in file name
     return table of energy and number of counts at that energy
     also contain the GATE code for the energy spectrum actor settings for this function to work
-
+1
 CdSendText
     send a text message
     take in message and target phone number
