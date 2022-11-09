@@ -1,3 +1,7 @@
+CdSaveTiff
+    save tiff like mango's code but change to use varargin and inputParser
+    add ability to add comment into tiff's metadata
+
 CdReadHits and CdReadSingles
     for gate
     take in file name and scanner type (changes how many output columns and where)
