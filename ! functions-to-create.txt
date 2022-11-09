@@ -1,4 +1,4 @@
-CdSaveTiff
+CdWriteTiff
     save tiff like mango's code but change to use varargin and inputParser
     add ability to add comment into tiff's metadata
 
