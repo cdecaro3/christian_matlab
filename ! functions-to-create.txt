@@ -1,3 +1,7 @@
+CdReadSeq
+    made already but make better
+    figure out how to read the .seq header to set pixel dimensions etc
+
 CdWriteTiff
     save tiff like mango's code but change to use varargin and inputParser
     add ability to add comment into tiff's metadata
