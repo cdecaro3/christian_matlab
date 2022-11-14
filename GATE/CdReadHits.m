@@ -7,6 +7,10 @@ function hits = CdReadHits(filename, system_type)
 % filename: filename including path of hits .dat file
 % system_type: (optional) GATE scanner type, defaults to the general "scanner"
 
+if nargin < 2
+    system_type = "scanner";
+end
+
 switch system_type
     case "scanner"
         % Set up the Import Options and import the data
