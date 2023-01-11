@@ -21,7 +21,7 @@ end
 
 if ismember(name_in,lower({'gadox','GOS'}))
     name = 'Gd2O2S';
-elseif ismember(name_in,lower({'YAS'}))
+elseif ismember(name_in,lower({'YAG'}))
     name = 'Y3Al5O12';
 
 
