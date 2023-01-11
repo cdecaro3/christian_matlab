@@ -7,6 +7,8 @@ function mu = CdGetLinearAttenuation(material, energy)
 % material: ['CdTe', 'CsI', 'Cu', etc.]
 % energy: photon energy (keV)
 
+material = CdEquivalentName(material);
+
 file = importdata('material_densities.txt');
 idx = find(matches(file.rowheaders,material));
 density = file.data(idx); % g/cm^3

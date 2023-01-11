@@ -10,6 +10,8 @@ function mu_rho = CdGetMassAttenuation(material, energy)
 
 energy = energy / 1000; %convert to MeV
 
+material = CdEquivalentName(material);
+
 file = importdata(sprintf("NIST_XCOM_data/%s.txt", material));
 
 [~,ia,~] = unique(file.data(:,1),'last'); % get indices of uniques 
