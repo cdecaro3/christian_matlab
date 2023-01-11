@@ -24,7 +24,7 @@ if ismember(name_in,lower({'gadox','GOS'}))
 elseif ismember(name_in,lower({'YAG'}))
     name = 'Y3Al5O12';
 elseif ismember(name_in,lower({'acrylic','PMMA'}))
-
+    name = 'C5O2H8';
 
 end
 
