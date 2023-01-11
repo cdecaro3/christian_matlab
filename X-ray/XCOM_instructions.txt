@@ -1,3 +1,7 @@
+https://www.nist.gov/pml/x-ray-mass-attenuation-coefficients
+check in table 3 and table 4 for elements, compounds, and mixtures that are already done
+
+if not, go to:
 https://physics.nist.gov/PhysRefData/Xcom/html/xcom1.html
 
 choose element, compound, or mixture
