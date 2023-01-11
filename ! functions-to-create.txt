@@ -1,3 +1,6 @@
+xray physics stuff
+    add something when getting attenuation file to check and equate names for same thing (gadox, GOS, Gd2O2S) case insensitive
+
 CdReadSeq
     made already but make better
     figure out how to read the .seq header to set pixel dimensions etc
