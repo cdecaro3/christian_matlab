@@ -1,5 +1,5 @@
-xray physics stuff
-    add something when getting attenuation file to check and equate names for same thing (gadox, GOS, Gd2O2S) case insensitive
+CdGet mass atten and linear atten  
+    add ability to do array of energies
 
 CdReadSeq
     made already but make better
