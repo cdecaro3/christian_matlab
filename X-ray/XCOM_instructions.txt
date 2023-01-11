@@ -1,0 +1,22 @@
+https://physics.nist.gov/PhysRefData/Xcom/html/xcom1.html
+
+choose element, compound, or mixture
+choose "Additional energies from file"
+submit info
+
+put in formula for compound, element, etc
+optional output title, graph options dont matter
+upload 'XCOM_energies.txt' file for the additional energies
+make sure "Include the standard grid" is checked
+dont change energy range
+submit info
+
+make sure delimiter is space
+check all boxes for scattering coherent, incoherent, photoelectric, etc
+click download data
+
+copy and paste / save output into a .txt file with the title name of the chemical formula
+
+also find density and put in 'material_densities.txt' with the same chemical formula name
+
+optionally, put nicknames in 'CdEquivalentName.m' if the material has nicknames
