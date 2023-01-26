@@ -1,3 +1,6 @@
+CdSetFigureTheme
+    option for light (paper) or dark (presentation)
+
 CdGet mass atten and linear atten  
     add ability to do array of energies
 

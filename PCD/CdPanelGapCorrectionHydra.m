@@ -14,6 +14,6 @@ corrected_img = img;
 corrected_img(:,bad_left,:) = 2/3.*img(:,bad_left-1,:) + 1/3.*img(:,bad_left+2,:);
 corrected_img(:,bad_right,:) = 2/3.*img(:,bad_right+1,:) + 1/3.*img(:,bad_right-2,:);
 
-corrected_img = corrected_img(2:63,2:5119,:);
+corrected_img = corrected_img(3:62,3:5118,:);
 
 end
