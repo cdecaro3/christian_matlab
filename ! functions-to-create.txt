@@ -1,3 +1,13 @@
+CdCreateSourceMac
+    for gate
+    create a source mac spectrum given parameters
+
+CdCreateBatch
+    for gate
+    take in list of parameters and values to loop through
+    optionally take in main mac file location with default mac/main.mac
+    optionally take in whether to save terminal to file or not with default yes
+
 CdSetFigureTheme
     option for light (paper) or dark (presentation)
 
@@ -22,5 +32,3 @@ CdSendText
     send a text message
     take in message and target phone number
     needs to use the new matlab email I created
-
-CdSetFigureTheme
