@@ -1,0 +1,10 @@
+Sn: tin
+Cu: copper
+W: tungsten
+CsI: cesium_iodide,caesium_iodide
+CdTe: cadmium_telluride
+Al: aluminum,aluminium
+H2O: water
+Gd2O2S: gadox, GOS
+Y3Al5O12: YAG
+C5O2H8: acrylic, PMMA

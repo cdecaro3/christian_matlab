@@ -9,24 +9,20 @@ function name = CdEquivalentName(name_in)
 
 name_in = lower(char(name_in));
 
-file = importdata('material_densities.txt');
+opts = delimitedTextImportOptions("NumVariables", 2);
+opts.Delimiter = [",", ":"];
+opts.VariableTypes = ["string", "string"];
+nicknames = readmatrix("material_nicknames.txt", opts);
 
-% check to see if name_in matches any names already
-idx = find(matches(lower(file.rowheaders),name_in));
+% check to see if name_in matches any names
+idx = find( any(matches(nicknames,name_in,"IgnoreCase",true), 2));
 if any(idx,'all')
-    name = file.rowheaders{idx};
+    name = nicknames(idx,1);
     return
 end
 
+error("That name isn't found in the material_nicknames.txt file. Check spelling, add material, or add to nicknames file.")
 
-if ismember(name_in,lower({'gadox','GOS'}))
-    name = 'Gd2O2S';
-elseif ismember(name_in,lower({'YAG'}))
-    name = 'Y3Al5O12';
-elseif ismember(name_in,lower({'acrylic','PMMA'}))
-    name = 'C5O2H8';
-
-end
 
 
 
