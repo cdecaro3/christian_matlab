@@ -1,12 +1,12 @@
+material_nicknames.txt
+    change nicknames to be in a .txt file like this format:
+        Sn,tin
+        C5O2H8,acrylic,PMMA
+    then change CdEquivalentName.m to read the file and use those as nicknames so you just have to add any nicknames to the .txt instead of the .m
+
 CdCreateSourceMac
     for gate
     create a source mac spectrum given parameters
-
-CdCreateBatch
-    for gate
-    take in list of parameters and values to loop through
-    optionally take in main mac file location with default mac/main.mac
-    optionally take in whether to save terminal to file or not with default yes
 
 CdSetFigureTheme
     option for light (paper) or dark (presentation)
