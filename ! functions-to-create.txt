@@ -1,3 +1,8 @@
+CdLinearFit
+    in plot folder
+    give it x and y data (and optionally two x values to start and stop fit line)
+    plot linear fit of data
+
 CdCreateSourceMac
     for gate
     create a source mac spectrum given parameters
